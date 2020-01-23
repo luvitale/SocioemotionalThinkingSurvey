@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-body {
+body.socioemotional {
   font-family: 'Liberation Sans', sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -19,7 +19,7 @@ body {
 }
 
 /* mobile friendly alternative to using background-attachment: fixed */
-body::before {
+body.socioemotional::before {
   content: '';
   position: fixed;
   top: 0;
