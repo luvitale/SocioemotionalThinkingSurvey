@@ -30,8 +30,8 @@
                         <input type="email" id="email" name="email" class="form-control" placeholder="Ingresá tu correo electrónico" required>
                     </div>
                     <div class="form-group">
-                        <label for="number" id="number-label">Edad</label>
-                        <input type="number" id="number" name="age" min="12" max="123" class="form-control" placeholder="Ingresá tu edad" required>
+                        <label for="number" id="number-label">Edad <span class="clue">(opcional)</span> </label>
+                        <input type="number" id="number" name="age" min="12" max="123" class="form-control" placeholder="Ingresá tu edad">
                     </div>
                 </fieldset>
                 <div class="form-group">
@@ -47,11 +47,11 @@
                 </div>
                 <div class="form-group">
                     <p>Modelo de amor con el que simpatizás</p>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="radio" name="love-model" value="romantic" class="input-radio" checked>
                         Amor romántico
                     </label>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="radio" name="love-model" value="confluent" class="input-radio">
                         Amor libre y confluente
                     </label>
@@ -60,45 +60,45 @@
                     <legend>Atracciones que experimentás</legend>
                     <div class="form-group">
                         <p>Atracción sexual</p>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="sexual-attraction" value="alosexual" class="input-radio" checked>
                             Alosexual
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="sexual-attraction" value="demisexual" class="input-radio">
                             Demisexual
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="sexual-attraction" value="asexual" class="input-radio">
                             Asexual
                         </label>
                     </div>
                     <div class="form-group">
                         <p>Atracción romántica (emocional/amorosa)</p>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="romantic-attraction" value="alorromantic" class="input-radio" checked>
                             Alorromántica
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="romantic-attraction" value="demirromantic" class="input-radio">
                             Demirromántica
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="romantic-attraction" value="arromantic" class="input-radio">
                             Arromántica
                         </label>
                     </div>
                     <div class="form-group">
                         <p>Atracción afectiva (de arrobamiento)</p>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="affective-attraction" value="aloaffective" class="input-radio" checked>
                             Aloafectiva
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox" class="label-radio-checkbox">
                             <input type="radio" name="affective-attraction" value="demiaffective" class="input-radio">
                             Demiafectiva
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="affective-attraction" value="anaffective" class="input-radio">
                             Anafectiva
                         </label>
@@ -106,11 +106,11 @@
                 </fieldset>
                 <div class="form-group">
                     <p>Respuesta emocional que más te identifica</p>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="radio" name="emotional-response" value="jealousy" class="input-radio" checked>
                         Celos
                     </label>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="radio" name="emotional-response" value="compersion" class="input-radio">
                         Compersión
                     </label>
@@ -119,38 +119,38 @@
                     <legend>Idiomas</legend>
                     <div class="form-group">
                         <p>Lenguas planificadas para uso global que te parecerían interesantes incorporar</p>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="checkbox" name="conlang" value="esperanto" class="input-checkbox">
                             Esperanto
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="checkbox" name="conlang" value="ido" class="input-checkbox">
                             Ido
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="checkbox" name="conlang" value="interlingua" class="input-checkbox">
                             Interlingua
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="checkbox" name="conlang" value="elefen" class="input-checkbox">
                             Lingua Franca Nova
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="checkbox" name="conlang" value="lojban" class="input-checkbox">
                             Lojban
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="checkbox" name="conlang" value="toki-pona" class="input-checkbox">
                             Toki Pona
                         </label>
                     </div>
                     <div class="form-group">
                         <p>Apoyás la escritura en las lenguas de señas (como SignWriting)</p>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="signwriting" value="yes" class="input-radio" checked>
                             Si
                         </label>
-                        <label>
+                        <label class="label-radio-checkbox">
                             <input type="radio" name="signwriting" value="no" class="input-radio">
                             No
                         </label>
@@ -158,23 +158,23 @@
                 </fieldset>
                 <div class="form-group">
                     <p>Otras ideas con las que te relacionás</p>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="checkbox" name="other" value="liberalism" class="input-checkbox">
                         Liberalismo
                     </label>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="checkbox" name="other" value="socialism" class="input-checkbox">
                         Socialismo
                     </label>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="checkbox" name="other" value="relationship-anarchy" class="input-checkbox">
                         Anarquía relacional
                     </label>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="checkbox" name="other" value="freethought" class="input-checkbox">
                         Librepensamiento
                     </label>
-                    <label>
+                    <label class="label-radio-checkbox">
                         <input type="checkbox" name="other" value="not-even-anarchist" class="input-checkbox">
                         Ni siquiera anarquista
                     </label>
